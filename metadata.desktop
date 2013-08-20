@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Remember and Restore Active Windows on Each Desktop
+Comment=This script fixes a specific problem: after switching desktop, sometimes window ordering is different from before.
+Icon=preferences-system-windows-script-fixkdewindoworder
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+
+X-KDE-PluginInfo-Author=Mikiya Okuno
+X-KDE-PluginInfo-Email=mikiya.okuno@members.fsf.org
+X-KDE-PluginInfo-Name=fixkdewindoworder
+X-KDE-PluginInfo-Version=1.0
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script
+Type=Service
